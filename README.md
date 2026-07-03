@@ -21,8 +21,3 @@ Model dilatih menggunakan dataset publik **Indonesian Fact and Hoax Political Ne
 * Label **Hoaks**: Data diambil dari arsip situs pengecekan fakta (TurnBackHoax.id).
 * *Catatan:* Model ini berfokus pada narasi bertema politik, pemerintahan, dan isu nasional.
 
-## 💻 Cara Menjalankan Aplikasi di Komputer Lokal
-
-1. **Clone Repository ini:**
-   ```bash
-   git clone [https://github.com/UsernameAnda/proyek-deteksi-hoaks.git](https://github.com/UsernameAnda/proyek-deteksi-hoaks.git)
