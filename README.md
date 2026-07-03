@@ -1,6 +1,6 @@
 # Sistem Deteksi Hoaks Berita Politik Berbasis NLP dan OCR 🕵️‍♂️📰
 
-Proyek ini adalah aplikasi berbasis web (*Machine Learning*) yang dirancang untuk mengklasifikasikan teks berita politik berbahasa Indonesia ke dalam kategori **Hoaks** atau **Valid**. Aplikasi ini dibangun untuk memenuhi tugas Ujian Tengah Semester (UTS).
+Proyek ini adalah aplikasi berbasis web (*Machine Learning*) yang dirancang untuk mengklasifikasikan teks berita politik berbahasa Indonesia ke dalam kategori **Hoaks** atau **Valid**. 
 
 ## 🚀 Fitur Utama
 1. **Deteksi Teks Manual:** Pengguna dapat mengetik atau menempelkan (*paste*) teks berita secara langsung.
