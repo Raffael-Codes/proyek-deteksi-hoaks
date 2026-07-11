@@ -66,5 +66,5 @@ python train_model.py
 # Kembali ke folder utama
 cd ..
 
-### 3. Menjalankan Aplikasi Web (Streamlit)
+### 4. Menjalankan Aplikasi Web (Streamlit)
 python -m streamlit run app/app.py
