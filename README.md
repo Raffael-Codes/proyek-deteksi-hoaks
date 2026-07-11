@@ -69,4 +69,6 @@ python train_model.py
 cd ..
 ```
 ### 4. Menjalankan Aplikasi Web (Streamlit)
+```bash
 python -m streamlit run app/app.py
+```
