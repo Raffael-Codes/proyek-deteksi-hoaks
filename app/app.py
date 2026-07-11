@@ -6,11 +6,11 @@ import pytesseract
 # 1. KONFIGURASI TESSERACT (Wajib di Windows)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# 2. LOAD MODEL KECERDASAN BUATAN ANDA
-vectorizer = joblib.load('tfidf_vectorizer.pkl')
-model = joblib.load('logreg_model.pkl')
+# 2. LOAD MODEL KECERDASAN BUATAN ANDA (Jalur sudah diperbarui!)
+vectorizer = joblib.load('models/tfidf_vectorizer.pkl')
+model = joblib.load('models/logreg_model.pkl')
 
-st.title("Sistem Deteksi Hoaks dengan OCR")
+st.title("Deteksi Hoaks")
 st.write("Silakan ketik teks berita atau upload screenshot berita.")
 
 # 3. MEMBUAT DUA PILIHAN INPUT (Tanpa Kamera)
