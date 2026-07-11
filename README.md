@@ -46,7 +46,7 @@ Buka terminal (Command Prompt / VS Code) dan jalankan perintah berikut secara be
 
 ```bash
 # Kloning repositori ini ke komputer Anda
-git clone [https://github.com/Raffael-Codes/proyek-deteksi-hoaks.git](https://github.com/Raffael-Codes/proyek-deteksi-hoaks.git)
+git clone https://github.com/Raffael-Codes/proyek-deteksi-hoaks.git
 
 # Masuk ke dalam folder proyek
 cd proyek-deteksi-hoaks
