@@ -53,3 +53,18 @@ cd proyek-deteksi-hoaks
 
 # Instalasi semua library Python yang dibutuhkan
 pip install pandas scikit-learn streamlit pytesseract joblib openpyxl
+
+### 3. Melatih Ulang Model (Opsional)
+Jika Anda ingin melatih ulang model dengan data baru, Anda dapat menjalankan *script* pelatihan berikut:
+```bash
+# Masuk ke folder source code
+cd src
+
+# Jalankan proses pembersihan data dan pelatihan model
+python train_model.py
+
+# Kembali ke folder utama
+cd ..
+
+### 3. Menjalankan Aplikasi Web (Streamlit)
+python -m streamlit run app/app.py
