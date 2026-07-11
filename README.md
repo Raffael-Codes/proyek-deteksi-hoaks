@@ -25,7 +25,7 @@ Model dilatih menggunakan dataset publik **Indonesian Fact and Hoax Political Ne
 * *Catatan:* Model ini berfokus pada narasi bertema politik, pemerintahan, dan isu nasional.
 
 **Langkah-langkah Mengunduh Dataset:**
-1. Kunjungi tautan dataset Kaggle berikut:([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/linkgish/indonesian-fact-and-hoax-political-news/data)) .
+1. Kunjungi tautan dataset Kaggle berikut: https://www.kaggle.com/datasets/linkgish/indonesian-fact-and-hoax-political-news/data
 2. Login menggunakan akun Kaggle Anda, lalu klik tombol **Download**.
 3. Ekstrak file berformat `.zip` yang telah diunduh.
 4. Pindahkan keempat file dataset berekstensi `.xlsx` tersebut (`dataset_cnn_10k.xlsx`, `dataset_kompas_4k.xlsx`, `dataset_tempo_6k.xlsx`, `dataset_turnbackhoax_10k.xlsx`) ke dalam folder `data/` di dalam repositori ini.
