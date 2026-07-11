@@ -56,7 +56,7 @@ pip install pandas scikit-learn streamlit pytesseract joblib openpyxl
 
 ---
 
-**### 3. Melatih Ulang Model (Opsional**)
+# Melatih Ulang Model (Opsional)
 Jika Anda ingin melatih ulang model dengan data baru, Anda dapat menjalankan *script* pelatihan berikut:
 ```bash
 # Masuk ke folder source code
@@ -68,5 +68,5 @@ python train_model.py
 # Kembali ke folder utama
 cd ..
 
-**### 4. Menjalankan Aplikasi Web (Streamlit)**
+# Menjalankan Aplikasi Web (Streamlit)
 python -m streamlit run app/app.py
