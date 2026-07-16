@@ -28,7 +28,7 @@ Model dilatih menggunakan dataset publik **Indonesian Fact and Hoax Political Ne
 1. Kunjungi tautan dataset Kaggle berikut: https://www.kaggle.com/datasets/linkgish/indonesian-fact-and-hoax-political-news/data
 2. Login menggunakan akun Kaggle Anda, lalu klik tombol **Download**.
 3. Ekstrak file berformat `.zip` yang telah diunduh.
-4. Pindahkan keempat file dataset berekstensi `.xlsx` tersebut (`dataset_cnn_10k.xlsx`, `dataset_kompas_4k.xlsx`, `dataset_tempo_6k.xlsx`, `dataset_turnbackhoax_10k.xlsx`) ke dalam folder `data/` di dalam repositori ini.
+4. Pindahkan keempat file di folder RAW dataset berekstensi `.xlsx` tersebut (`dataset_cnn_10k.xlsx`, `dataset_kompas_4k.xlsx`, `dataset_tempo_6k.xlsx`, `dataset_turnbackhoax_10k.xlsx`) ke dalam folder `data/` di dalam repositori ini.
 
 ---
 
@@ -53,3 +53,22 @@ cd proyek-deteksi-hoaks
 
 # Instalasi semua library Python yang dibutuhkan
 pip install pandas scikit-learn streamlit pytesseract joblib openpyxl
+
+---
+```
+### 3. Melatih Ulang Model (Opsional)
+Jika Anda ingin melatih ulang model dengan data baru, Anda dapat menjalankan *script* pelatihan berikut:
+```bash
+# Masuk ke folder source code
+cd src
+
+# Jalankan proses pembersihan data dan pelatihan model
+python train_model.py
+
+# Kembali ke folder utama
+cd ..
+```
+### 4. Menjalankan Aplikasi Web (Streamlit)
+```bash
+python -m streamlit run app/app.py
+```
