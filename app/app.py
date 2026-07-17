@@ -36,7 +36,7 @@ menu = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("Dibuat untuk Ujian Akhir Semester - Pembelajaran Mesin")
+st.sidebar.info("Tugas Akhir  - UAS Pembelajaran Mesin")
 
 # ==========================================
 # MENU 1: DOKUMENTASI
