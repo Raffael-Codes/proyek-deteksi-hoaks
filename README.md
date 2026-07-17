@@ -72,3 +72,7 @@ cd ..
 ```bash
 python -m streamlit run app/app.py
 ```
+### 5. Deployment
+```bash
+https://hoax-detector-nlp.streamlit.app/
+```
