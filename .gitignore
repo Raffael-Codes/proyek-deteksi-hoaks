@@ -1,3 +1,4 @@
 # Mengabaikan file sistem Python
 __pycache__/
 *.pyc
+data/processed/dataset_bersih.csv
