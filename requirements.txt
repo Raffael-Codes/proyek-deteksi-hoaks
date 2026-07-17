@@ -4,3 +4,4 @@ streamlit
 pytesseract
 joblib
 openpyxl
+matplotlib
